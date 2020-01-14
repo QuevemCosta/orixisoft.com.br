@@ -1,0 +1,119 @@
+body{
+    background-color: #D1D9E1;
+
+}
+.banner-1{
+    background-color: #D1D9E1;
+    width: 100%;
+}
+.banner-list{
+    padding: 20px;
+    background-color: #D1D9E1;
+    background-image: url('../img/banner/clipp-facil-2.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 55%;
+    padding-top: 320px;
+    padding-bottom: 100px;
+    text-align:left;
+    float: left;
+}
+.banner-list .titulo{
+    color:#24cf7c;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.banner-list >div{
+    background-color: #fff;
+    width: 70%;
+    margin-top:40px;
+    padding-left: 40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    position: relative;
+    left: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.banner-list span{
+    font-weight: bold;
+}
+.banner-list >div li{
+    list-style-type: disc;
+    color: #A09C9D;
+    line-height: 30px;
+}
+.banner-list >div li h2{
+    font-weight: 100;
+
+}
+.conteudo-banner{
+    background-color:#ffffffab; 
+    width: 40%;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    margin-top:50px;
+    margin-right:20px;
+    padding:20px;
+    float: right;
+
+}
+.conteudo-banner h2{
+    font-size: 1.5em;
+    line-height: 50px;
+    color: #24cf7c;
+}
+.conteudo-banner p{
+    color:#A09C9D;
+    line-height: 30px;
+    text-align: justify;
+}
+.conteudo-banner a{
+    color:#fff;
+    line-height: 50px;
+    padding: 10px;
+    background-color: #24cf7c;
+    margin-top:10px ;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/*--------Larguara maxima de 920px*/
+@media screen and (max-width:920px){
+    .banner-list{
+        float: none;
+        width: 100%;
+    }
+    .conteudo-banner{
+        float: none;
+        width: 90%;
+        margin:0 auto;
+
+    }
+}
+/*--------Larguara maxima de 550px*/
+
+@media screen and (max-width:550px){
+    .banner-list{
+        float: none;
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+        padding-top:90%;
+        padding-bottom: 10px;
+    }
+    .banner-list >div{
+        width: 95%;
+        position: static;
+        margin: auto;
+        padding-right: 20px;
+        background-color: rgba(255, 255, 255, 0.911);
+    }
+    .conteudo-banner{
+        float: none;
+        width: 90%;
+        margin:0 auto;
+
+    }
+}
